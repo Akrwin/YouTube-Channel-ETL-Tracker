@@ -1,0 +1,12 @@
+# Ignore Airflow database and logs
+airflow.db
+logs/
+unittests.cfg
+
+# Ignore Python cache files
+*.pyc
+__pycache__/
+
+# Ignore virtual environment
+.env/
+.venv/
